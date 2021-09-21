@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../IMAGENS/fundo3.jpg");
+	background-position: 20% 40%;
+    color:white;
+	font-family: arial;
+}
+input{
+	display:block;
+	height:55px; /*altura da caixa de texto*/
+	width:400px; /*largura da caixa de texto*/
+	margin:10px; /*espaço entre a caixa de login e senha*/
+	border-radius:30px; /*borda arredondada*/
+	border:1px solid black; /*borda maior ou mais escura*/
+	font-size: 16pt; /*tamanho da letra*/
+	padding: 10px 20px;
+	color: white; /*cor do botão ACESSAR*/
+	outline: none; /*contorno quadrado*/
+}
+
+div#corpo-form{
+	/*background-color:red;*/
+	width:420px; /*largura da div*/
+	margin:150px auto 0px auto; /*centralizar*/
+	
+	
+}
+
+div#corpo-form-cad{
+	/*background-color:red;*/
+	width:420px; /*largura da div*/
+	margin:80px auto 0px auto; /*centralizar*/
+	
+	
+}
+
+div#corpo-form h1, div#corpo-form-cad h1{
+	text-align: center;
+	font-size: 30pt;
+	padding: 20px;
+}
+
+a{                             /*formatação do link*/
+	color:yellow;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	
+}
+
+a:hover{                     /*link clicavel ao passar o mouse*/
+	text-decoration: underline;
+}
+
+input[type=submit]{
+	background-color: #00CED1;
+	border:none;
+	cursor: pointer;
+
+}
+input[type=email],[type=password],[type=text]{
+	color:black;
+
+}
+ div#msg-sucesso{
+	 width:370px;
+	 margin:10px auto;
+	 padding: 10px;
+	 text-align: center;
+	 background-color: hsla(120, 100%, 50%,.3);
+	 border:1px solid rgb(34,139,34);
+ }
+ 
+ div.msg-erro{
+	 width:370px;
+	 margin:10px auto; 
+	 padding: 10px;
+	 text-align: center;
+	 background-color: rgba(255, 0, 0, 0.4);
+	 border:1px solid rgb(165,42,42);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 

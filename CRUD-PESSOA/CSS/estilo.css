@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	background-image:url("../IMAGENS/fundo4.jpg");
+	background-position: 20% 40%;
+}
+
+h2{
+	text-align: center;
+	padding:10px;
+	color: white;
+	font-family: arial;
+}
+input{
+	display:block;
+	height:40px;
+	width: 300px;
+	outline:none;
+	font-size:13pt;
+	margin:10px;
+	border-radius: 30px;
+	border:1px solid black;
+	padding: 10px 20px;
+	
+}
+input[type=submit]{
+	background-color:#5DADE2;
+	 cursor:pointer;
+	 border: none;
+}
+
+
+form{
+		
+	width: 330px;
+	background-color:rgba(0,0,0,.4);
+	padding: 20px;
+	margin: 30px auto;
+	border-radius: 20px;/*aredondamento da borda */
+}
+
+#superior{
+	width:28%;
+	/*background-color:red;*/
+	height:280px;
+	margin:30px auto 0px auto;
+}
+
+#inferior{
+	width:80%;
+	/*background-color:pink;*/
+	margin:50px auto 0px auto;
+}
+table{
+	background-color:rgba(0,0,0,.4);
+	width:60%;
+	margin:  auto;
+}
+tr{
+	line-height: 30px;
+	border-radius: 20px;
+}
+tr#titulo{
+	font-weight: bold;
+	background-color: rgba(0,0,0,.6);
+	color:white;
+}
+td{
+	padding: 0px 8px;
+}
+a{
+	background-color: white;
+	color:black;
+	padding: 5px;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+div.aviso{
+	width:25%;
+	height:50px;
+	margin: 25px auto;
+	background-color: rgba(250,128,114,.3);
+	border: 1px solid rgb(165,42,42);
+	
+}
+
+img{
+	width:50px;
+	display:block;
+	float:left;
+}
+h4{
+	float:left;
+	line-height:50px;
+}
